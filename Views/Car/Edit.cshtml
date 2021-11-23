@@ -1,0 +1,54 @@
+@model TrabajoEnEquipo.Models.Car
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Car</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="_idCar" />
+            <div class="form-group">
+                <label asp-for="_brandCar" class="control-label"></label>
+                <input asp-for="_brandCar" class="form-control" />
+                <span asp-validation-for="_brandCar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="_modelCar" class="control-label"></label>
+                <input asp-for="_modelCar" class="form-control" />
+                <span asp-validation-for="_modelCar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="_yearCar" class="control-label"></label>
+                <input asp-for="_yearCar" class="form-control" />
+                <span asp-validation-for="_yearCar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="_colorCar" class="control-label"></label>
+                <input asp-for="_colorCar" class="form-control" />
+                <span asp-validation-for="_colorCar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="_typeCar" class="control-label"></label>
+                <input asp-for="_typeCar" class="form-control" />
+                <span asp-validation-for="_typeCar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

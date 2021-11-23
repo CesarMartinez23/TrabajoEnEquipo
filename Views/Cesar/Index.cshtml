@@ -1,0 +1,141 @@
+@{
+ViewData["Title"] = "Personal Page Cesar Martinez";
+}
+@model Personal_Cesar
+
+<div class="body">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-6">
+                <div class="mb-2">
+                    <img class="w-100" src="~/img/Cesar.png" alt="">
+                </div>
+                <div class="mb-2 d-flex">
+                    <h4 class="font-weight-normal"><b>@Model.name @Model.lastname</b></h4>
+                    <div class="social d-flex ml-auto">
+                        <p class="pr-2 font-weight-normal">Follow me:</p>
+                        <a href="https://github.com/CesarMartinez23" class="text-muted mr-1">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/cesarmartinez_j" class="text-muted mr-1">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/cesarmartinez_jr" class="text-muted mr-1">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="mb-2">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <span class="w-25 text-black font-weight-normal">Age:</span>
+                            <label class="media-body">@Model.age A&ntilde;os</label>
+                        </li>
+                        <li class="media">
+                            <span class="w-25 text-black font-weight-normal">Profession:</span>
+                            <label class="media-body">@Model.profession</label>
+                        </li>
+                        <li class="media">
+                            <span class="w-25 text-black font-weight-normal">Experience: </span>
+                            <label class="media-body">@Model.experience</label>
+                        </li>
+                        <li class="media">
+                            <span class="w-25 text-black font-weight-normal">Phone: </span>
+                            <label class="media-body">@Model.phone</label>
+                        </li>
+                        <li class="media">
+                            <span class="w-25 text-black font-weight-normal">Email: </span>
+                            <label class="media-body">@Model.email</label>
+                        </li>
+                        <li class="media">
+                            <span class="w-25 text-black font-weight-normal">Location: </span>
+                            <label class="media-body">@Model.location</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-6 pl-xl-3">
+                <h5 class="font-weight-normal"><b>Biography of C&eacute;sar Martinez</b></h5>
+                <p>I am a person passionate about the world of technology and programming, I am focused on Web Development as Frontend Developer, I also dedicate myself to researching, learning and practicing new technologies focused on web development, I am dedicated to learning and sharing my knowledge with others, I currently lead a community called the Google Developer Student Club UGB..</p>
+                <div class="my-2 bg-light p-2">
+                    <p class="font-italic mb-0">"Controlling complexity is the essence of programming"
+                        <br>-- Brian Kernigan</p>
+                </div>
+                <h5 class="font-weight-normal"><b>My Hobbies</b></h5>
+                <ul class="list list-unstyled mb-3">
+                    <li class="text-secondary font-weight-normal mb-1">
+                        <span class="ti-arrow-right pr-1 text-primary"></span>
+                        -Programming.
+                    </li>
+                    <li class="text-secondary font-weight-normal mb-1">
+                        <span class="ti-arrow-right pr-1 text-primary"></span>
+                        -Play Basketball.
+                    </li>
+                    <li class="text-secondary font-weight-normal mb-1">
+                        <span class="ti-arrow-right pr-1 text-primary"></span>
+                        -Watch YouTube videos about technology. 
+                    </li>
+                    <li class="text-secondary font-weight-normal mb-1">
+                        <span class="ti-arrow-right pr-1 text-primary"></span>
+                        -To Study.
+                    </li>
+                </ul>
+                <h5 class="font-weight-normal"><b>Personal Experience</b></h5>
+                <p><b>Gerardo Barrios University, San Miguel, El Salvador.</b><br>
+                    • Computer Systems and Networks Engineering. <br>
+                (Currently studying 1st year).</p>
+                <div class="mb-2 mt-2 pt-1">
+                    <h5 class="font-weight-normal"><b>Skills</b></h5>
+                    <br>
+                </div>
+                <div class="py-1">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width:45%" aria-valuenow="45"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar-title">HTML</div>
+                            <span class="progress-bar-number">45%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-1">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width:50%" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar-title">CSS</div>
+                            <span class="progress-bar-number">50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-1">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width:15%" aria-valuenow="15"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar-title">JavaScript</div>
+                            <span class="progress-bar-number">15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-1">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width:25%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar-title">PHP</div>
+                            <span class="progress-bar-number">25%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-1">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width:75%" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar-title">MySQL</div>
+                            <span class="progress-bar-number">75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

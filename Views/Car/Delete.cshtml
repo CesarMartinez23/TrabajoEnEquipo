@@ -1,0 +1,51 @@
+@model TrabajoEnEquipo.Models.Car
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Car</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model._brandCar)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model._brandCar)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model._modelCar)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model._modelCar)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model._yearCar)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model._yearCar)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model._colorCar)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model._colorCar)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model._typeCar)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model._typeCar)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="_idCar" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
