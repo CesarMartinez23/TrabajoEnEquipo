@@ -17,4 +17,6 @@ using TrabajoEnEquipo.Models;
         public DbSet<TrabajoEnEquipo.Models.Student> Student { get; set; }
 
         public DbSet<TrabajoEnEquipo.Models.Edificio> Edificio { get; set; }
+
+        public DbSet<TrabajoEnEquipo.Models.Contacto> Contacto { get; set; }
     }
