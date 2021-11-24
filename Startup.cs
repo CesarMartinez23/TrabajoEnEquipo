@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace TrabajoEnEquipo
 {
@@ -28,6 +29,26 @@ namespace TrabajoEnEquipo
 
             services.AddDbContext<BDContext>(options =>
                     options.UseMySQL(Configuration.GetConnectionString("BDContext")));
+
+                    
+        //Agregar Servicio Para Autenticacion
+        services.AddIdentity<IdentityUser, IdentityRole>()
+        .AddDefaultUI()
+        .AddEntityFrameworkStores<BDContext>()
+        .AddDefaultTokenProviders();
+
+        services.ConfigureApplicationCookie(options=>{
+            options.LoginPath="/Login";
+            options.AccessDeniedPath="/AccessDenied";
+            options.SlidingExpiration=true;
+        });
+
+        services.AddRazorPages(options=>{
+            options.Conventions.AddAreaPageRoute("Indentity", "/Account/Login", "/Login");
+            options.Conventions.AddAreaPageRoute("Indentity", "/Account/Register", "/Register");
+            options.Conventions.AddAreaPageRoute("Indentity", "/Account/AccessDenied", "/AccessDenied");
+        }
+        );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,12 +70,15 @@ namespace TrabajoEnEquipo
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthentication();
+
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                    endpoints.MapRazorPages();
             });
         }
     }

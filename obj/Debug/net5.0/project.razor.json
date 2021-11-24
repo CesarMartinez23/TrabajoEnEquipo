@@ -15634,8 +15634,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Car\\Details.cshtml",
       "TargetPath": "Views\\Car\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Contacto\\Create.cshtml",
+      "TargetPath": "Views\\Contacto\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15654,8 +15664,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Student\\Delete.cshtml",
       "TargetPath": "Views\\Student\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Contacto\\Index.cshtml",
+      "TargetPath": "Views\\Contacto\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Contacto\\Edit.cshtml",
+      "TargetPath": "Views\\Contacto\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15664,13 +15694,48 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Edificio\\Edit.cshtml",
       "TargetPath": "Views\\Edificio\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Contacto\\Delete.cshtml",
+      "TargetPath": "Views\\Contacto\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15699,8 +15764,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Cesar\\Index.cshtml",
       "TargetPath": "Views\\Cesar\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15719,8 +15794,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Contacto\\Details.cshtml",
+      "TargetPath": "Views\\Contacto\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Car\\Index.cshtml",
       "TargetPath": "Views\\Car\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
