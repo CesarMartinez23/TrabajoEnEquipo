@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "03hWPDBt9XRA8nRJUtNvAc6OmUHobkVwp0ly7XA+c+bZ7fqPqF71bSCacJjHK8fAf2yFLXidaWYoq7ed48r1iw==",
+  "dgSpecHash": "UQgSTMXNPJaFT5qZJAGe8MUrtWxtbfNH5VuvgCDB0FBXD8WeBrpsIDwh6bFGy2lKGf9G0lVxmGfYETcVL7nQHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ec133\\Desktop\\trabajo en equipo\\TrabajoEnEquipo\\TrabajoEnEquipo.csproj",
+  "projectFilePath": "C:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\TrabajoEnEquipo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ec133\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\ec133\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

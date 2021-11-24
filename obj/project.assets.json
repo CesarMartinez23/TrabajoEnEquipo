@@ -7513,11 +7513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ec133\\Desktop\\trabajo en equipo\\TrabajoEnEquipo\\TrabajoEnEquipo.csproj",
+      "projectUniqueName": "C:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\TrabajoEnEquipo.csproj",
       "projectName": "TrabajoEnEquipo",
-      "projectPath": "C:\\Users\\ec133\\Desktop\\trabajo en equipo\\TrabajoEnEquipo\\TrabajoEnEquipo.csproj",
+      "projectPath": "C:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\TrabajoEnEquipo.csproj",
       "packagesPath": "C:\\Users\\ec133\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ec133\\Desktop\\trabajo en equipo\\TrabajoEnEquipo\\obj\\",
+      "outputPath": "C:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

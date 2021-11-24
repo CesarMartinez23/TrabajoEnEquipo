@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\TrabajoEnEquipo.csproj",
+  "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\TrabajoEnEquipo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,68 +15619,118 @@
   "RootNamespace": "TrabajoEnEquipo",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Car\\Details.cshtml",
-      "TargetPath": "Views\\Car\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Car\\Create.cshtml",
-      "TargetPath": "Views\\Car\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Student\\Index.cshtml",
+      "TargetPath": "Views\\Student\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Cesar\\Index.cshtml",
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Edificio\\Create.cshtml",
+      "TargetPath": "Views\\Edificio\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Cesar\\Index.cshtml",
       "TargetPath": "Views\\Cesar\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Car\\Edit.cshtml",
-      "TargetPath": "Views\\Car\\Edit.cshtml",
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Car\\Details.cshtml",
+      "TargetPath": "Views\\Car\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Car\\Delete.cshtml",
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Car\\Create.cshtml",
+      "TargetPath": "Views\\Car\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Car\\Delete.cshtml",
       "TargetPath": "Views\\Car\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Car\\Index.cshtml",
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Car\\Edit.cshtml",
+      "TargetPath": "Views\\Car\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Edificio\\Edit.cshtml",
+      "TargetPath": "Views\\Edificio\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Car\\Index.cshtml",
       "TargetPath": "Views\\Car\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\olive\\source\\repos\\ASP_NET_CORE\\TrabajoEnEquipo\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Student\\Create.cshtml",
+      "TargetPath": "Views\\Student\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Student\\Delete.cshtml",
+      "TargetPath": "Views\\Student\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Student\\Details.cshtml",
+      "TargetPath": "Views\\Student\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Student\\Edit.cshtml",
+      "TargetPath": "Views\\Student\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Edificio\\Delete.cshtml",
+      "TargetPath": "Views\\Edificio\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Edificio\\Index.cshtml",
+      "TargetPath": "Views\\Edificio\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ec133\\Desktop\\UGB ciclo 2\\trabajo en equipo\\TrabajoEnEquipo\\Views\\Edificio\\Details.cshtml",
+      "TargetPath": "Views\\Edificio\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
