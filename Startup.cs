@@ -44,9 +44,9 @@ namespace TrabajoEnEquipo
         });
 
         services.AddRazorPages(options=>{
-            options.Conventions.AddAreaPageRoute("Indentity", "/Account/Login", "/Login");
-            options.Conventions.AddAreaPageRoute("Indentity", "/Account/Register", "/Register");
-            options.Conventions.AddAreaPageRoute("Indentity", "/Account/AccessDenied", "/AccessDenied");
+            options.Conventions.AddAreaPageRoute("Identity", "/Account/Login", "/Login");
+            options.Conventions.AddAreaPageRoute("Identity", "/Account/Register", "/Register");
+            options.Conventions.AddAreaPageRoute("Identity", "/Account/AccessDenied", "/AccessDenied");
         }
         );
         }
